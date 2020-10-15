@@ -46,7 +46,9 @@ A few things to note here:
 - Not all teams played in all years.  Most teams in the 1800's don't exist anymore, and there are teams currently in the MLB that are relatively new.  There are also many teams that have moved between cities and leagues, and will be identified differently.  When calculating the average deviation, make sure you aren't including years the team didn't exist!
 - You can consult the team code files to determine which actual MLB team the codes refer too.  This is useful, but you do not need to report it in your output.
 
-## Analysis - Part 3 - Home Field Advantage?
+## EXTRA CREDIT - Analysis - Part 3 - Home Field Advantage?
+*Note this part is optional.  I will award 20pts of extra credit for successfully implementing this portion of the project.  PLEASE do the first two parts first.*
+
 Now let's see if home field advantage helps teams outperform their expected win/loss totals.  Each game listed in each file has a home and away team listed. For this analysis, let's  compute the home team's actual win total (count how many times the home team won) against the home team's (all home teams!) expected total.  This really amounts to recalculating win/loss expectations specifically for the generic "home team".  Do this individually for each year between 1871-2018, and then calculate the average.  
 
 ### Important:  Expected and Actual Win Totals
